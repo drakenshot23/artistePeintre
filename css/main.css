@@ -1,15 +1,46 @@
-@import url(menu-responsive.css);
+@import url(menu.css);
+
+@font-face {
+    font-family: 'Scriptina';
+    src: url("../fonts/scriptina/SCRIPTIN.ttf");
+}
+
+@font-face {
+    font-family: 'Lane';
+    src: url("../fonts/lane/LANENAR_.ttf");
+}
+
+html
+{
+    height: 100%;
+}
 
 body
 {
+    min-height: 100%;
     margin: 0;
+    padding: 0;
+    font-family: "Lane";
+    position: relative;
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 a
 {
     color: #000;
     text-decoration: none;
-    padding-right: 10px;
+}
+
+#menu a
+{
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 #logo
@@ -17,6 +48,7 @@ a
     font-size: 1.2em;
     display: inline;
     margin-left: 15px;
+    font-family: 'Scriptina';
 }
 
 #menu
@@ -24,14 +56,8 @@ a
     text-transform: uppercase;
 }
 
-#contact
+
+#copyright
 {
-    width: 40%;
+    margin-bottom: 0;
 }
-
-#contact *
-{
-    width: 100%;
-}
-
-

@@ -1,0 +1,73 @@
+@import url("main.css");
+
+/**
+/   Mobile
+ */
+@media screen and (max-width: 480px)
+{
+    #titreAccueil
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+/*
+    Tablet
+ */
+@media screen and (min-width: 481px) and (max-width: 780px)
+{
+    #titreAccueil
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+/*
+    Desktop
+ */
+@media screen and (min-width: 781px)
+{
+    #accueil
+    {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    #titreAccueil
+    {
+        text-align: center;
+    }
+}
+
+#tableauAccueil
+{
+    width: 100%;
+    height: 350px;
+}
+
+.button
+{
+    margin-top: 15px;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    height: 25px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #01579B;
+    font-weight: bold;
+    padding: 2px 2px 2px 2px;
+
+
+}
+
+.button:hover
+{
+    color: white;
+    background: #01579B;
+    transition: background-color 300ms ease-in;
+}
+
