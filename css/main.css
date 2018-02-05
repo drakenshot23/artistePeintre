@@ -4,3 +4,34 @@ body
 {
     margin: 0;
 }
+
+a
+{
+    color: #000;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#logo
+{
+    font-size: 1.2em;
+    display: inline;
+    margin-left: 15px;
+}
+
+#menu
+{
+    text-transform: uppercase;
+}
+
+#contact
+{
+    width: 40%;
+}
+
+#contact *
+{
+    width: 100%;
+}
+
+
